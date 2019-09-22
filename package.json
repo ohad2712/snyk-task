@@ -1,0 +1,43 @@
+{
+  "name": "snyk-task",
+  "version": "1.0.0",
+  "description": "A web service that, given a name of an npm package returns its dependent packages",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && webpack",
+    "watch-server": "nodemon src/index.js",
+    "clean-cache": "redis-cli flushall",
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohad2712/snyk-task.git"
+  },
+  "author": "Ohad Finkelstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohad2712/snyk-task/issues"
+  },
+  "homepage": "https://github.com/ohad2712/snyk-task#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^5.0.0-alpha.7",
+    "express-validator": "^6.2.0",
+    "lodash": "^4.17.15",
+    "npm-package-arg": "^6.1.1",
+    "redis": "^2.8.0",
+    "util": "^0.12.1",
+    "validate-npm-package-name": "^3.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.2",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
