@@ -27,6 +27,7 @@
     "npm-package-arg": "^6.1.1",
     "redis": "^2.8.0",
     "ejs": "1.0.0",
+    "dustjs-linkedin": "2.5.0",
     "util": "^0.12.1",
     "validate-npm-package-name": "^3.0.0",
     "webpack": "^4.29.6",
