@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ohad2712/snyk-task#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "express": "^5.0.0-alpha.7",
     "express-validator": "^6.2.0",
     "lodash": "^4.17.15",
