@@ -24,7 +24,7 @@
     "express": "^5.0.0-alpha.7",
     "express-validator": "^6.2.0",
     "lodash": "^4.17.15",
-    "npm-package-arg": "^6.1.1",
+    "npm-package-arg": "^7.0.0",
     "redis": "^2.8.0",
     "util": "^0.12.1",
     "validate-npm-package-name": "^3.0.0",
