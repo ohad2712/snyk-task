@@ -27,7 +27,7 @@ The response should look like this:
 - `name` - The package name (e.g. `snyk-task`)
 - `version` - The package version (e.g. `1.0.0`)
 - `key` - The `db` key (e.g. `snyk-task@1.0.0`)
-- `dependencies` - The dependencies of the package. Usually contains an array of dependencies (`[]` if there aren't any). If an error has occured when asking for the package's data it will be an empty object (`{}`). It'll also be an empty object if the server has reached the level to fetch to.
+- `dependencies` - The dependencies of the package. Usually contains an array of dependencies (`[]` if there aren't any). If an error has occurred when asking for the package's data it will be an empty object (`{}`). It'll also be an empty object if the server has reached the level to fetch to.
 
 ## Further Notes
 
