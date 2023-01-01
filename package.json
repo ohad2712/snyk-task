@@ -28,11 +28,11 @@
     "redis": "^2.8.0",
     "util": "^0.12.1",
     "validate-npm-package-name": "^3.0.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.3.1",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.3.0",
     "@babel/plugin-transform-arrow-functions": "^7.2.0"
   },
   "devDependencies": {
